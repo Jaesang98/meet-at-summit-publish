@@ -1,5 +1,5 @@
 import Header from '../../components/header'
-import { Card, Col, Row, Offcanvas, Button } from 'react-bootstrap';
+import { Card, Col, Row, Offcanvas } from 'react-bootstrap';
 import '../../assets/styles/style.css';
 import '../../assets/styles/src.css';
 import { useState } from 'react';
