@@ -16,7 +16,7 @@ function DataTable() {
 
         // 홈
         { screenName: '홈', screenId: 'HOM_1000', date: '2024-08-06', link: '/HOM_1000' },
-        { screenName: '홈 검색', screenId: 'HOM_1100', date: '2024-08-06', link: '/HOM_1100' },
+        { screenName: '홈 검색', screenId: 'HOM_1010', date: '2024-08-06', link: '/HOM_1010' },
 
         // 커뮤니티
         { screenName: '커뮤니티', screenId: 'COM_1000', date: '2024-08-06', link: '/COM_1000' },
