@@ -3,7 +3,7 @@ import Footer from '../../components/footer';
 import '../../assets/styles/style.css'
 import '../../assets/styles/myp.css'
 
-function COM1000() {
+function MYP1000() {
     return (
         <div>
             <Header></Header>
@@ -158,4 +158,4 @@ function COM1000() {
     );
 }
 
-export default COM1000;
+export default MYP1000;

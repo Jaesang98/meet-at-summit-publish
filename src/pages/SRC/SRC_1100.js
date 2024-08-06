@@ -4,7 +4,7 @@ import '../../assets/styles/style.css';
 import '../../assets/styles/src.css';
 import { useState } from 'react';
 
-function SRC1000() {
+function SRC1100() {
     const [isFavorite, setIsFavorite] = useState(false);
 
     const toggleFavorite = () => {
@@ -97,4 +97,4 @@ function SRC1000() {
     );
 }
 
-export default SRC1000;
+export default SRC1100;

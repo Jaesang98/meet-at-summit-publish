@@ -2,13 +2,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import HOM1000 from './pages/HOM/HOM_1000'
+import Table from './pages/table'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HOM1000 />
+    <Table />
   </React.StrictMode>
 );
 

@@ -3,7 +3,7 @@ import Footer from '../../components/footer'
 import '../../assets/styles/style.css'
 import '../../assets/styles/log.css'
 
-function LOG2010() {
+function LOG2020() {
     return (
         <div>
             <Header></Header>
@@ -93,4 +93,4 @@ function LOG2010() {
     );
 }
 
-export default LOG2010;
+export default LOG2020;

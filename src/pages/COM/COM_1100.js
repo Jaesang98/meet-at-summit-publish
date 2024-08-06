@@ -5,7 +5,7 @@ import '../../assets/styles/style.css'
 import '../../assets/styles/com.css'
 import { useState } from 'react';
 
-function COM1000() {
+function COM1100() {
     const [showPopover, setShowPopover] = useState(false);
     const [target, setTarget] = useState(null);
 
@@ -216,4 +216,4 @@ function COM1000() {
     );
 }
 
-export default COM1000;
+export default COM1100;

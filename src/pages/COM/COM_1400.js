@@ -3,7 +3,7 @@ import Footer from '../../components/footer';
 import '../../assets/styles/style.css'
 import '../../assets/styles/com.css'
 
-function COM1000() {
+function COM1400() {
     return (
         <div>
             <Header></Header>
@@ -110,4 +110,4 @@ function COM1000() {
     );
 }
 
-export default COM1000;
+export default COM1400;
