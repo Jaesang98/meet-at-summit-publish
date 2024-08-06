@@ -1,0 +1,16 @@
+.logo {
+    color: #5200DF;
+    font-weight: 900;
+}
+
+.headBtn {
+    background-color: #5200DF;;
+}
+
+.headNavar {
+    margin: auto;
+}
+
+.headNavar .headLink {
+    margin-right: 20px;
+}
