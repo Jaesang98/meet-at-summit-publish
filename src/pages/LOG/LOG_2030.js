@@ -44,7 +44,7 @@ function LOG2030() {
                         </div>
                     </div>
 
-                    <button className='signup-button mt-3'>가입하기</button>
+                    <button className='signup-button mt-3'>로그인</button>
                 </div>
             </section>
 

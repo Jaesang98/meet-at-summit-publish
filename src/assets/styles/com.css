@@ -1,12 +1,12 @@
 .com-head {
-    display: flex;
-    /* Flexbox를 사용하여 수평 정렬 */
-    justify-content: space-between;
-    /* 제목과 입력 필드 사이의 공간을 최대한 활용 */
-    align-items: center;
-    /* 세로 중앙 정렬 */
+    position: sticky;
+    top: 0;
+    background-color: #fff; /* 배경색 지정 */
+    z-index: 1000; /* 다른 요소들 위에 표시되도록 z-index 설정 */
     padding: 10px;
-    /* 상하 좌우 패딩 추가 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .com-head .commu-log {

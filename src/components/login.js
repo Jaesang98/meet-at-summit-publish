@@ -1,6 +1,6 @@
 import { Modal, Button, Form, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../assets/styles/log.css'; // 추가 스타일이 필요하다면 이 파일에 작성
+import '../assets/styles/log.css';
 
 function LOGIN({ show, handleClose }) {
     return (
