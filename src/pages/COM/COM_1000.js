@@ -24,16 +24,33 @@ function COM1000() {
                     <li className="com-tab-item">파티 모집</li>
                 </ul>
 
-                <div className="wrapper">
-                    <ul className="tabs-box">
-                        <li className="tab active">전체</li>
-                        <li className="tab">정보</li>
-                        <li className="tab">질문</li>
-                        <li className="tab">잡담</li>
-                        <li className="tab">시사/이슈</li>
-                        <li className="tab">기타</li>
+                <div className="hom-wrapper">
+                    <ul className="hom-tabs-box">
+                        <li className="hom-tab">
+                            <input type="checkbox" id="tab1" className="checkbox" />
+                            <label htmlFor="tab1" className="hom-tab-label">전체</label>
+                        </li>
+                        <li className="hom-tab">
+                            <input type="checkbox" id="tab2" className="checkbox" />
+                            <label htmlFor="tab2" className="hom-tab-label">정보</label>
+                        </li>
+                        <li className="hom-tab">
+                            <input type="checkbox" id="tab3" className="checkbox" />
+                            <label htmlFor="tab3" className="hom-tab-label">질문</label>
+                        </li>
+                        <li className="hom-tab">
+                            <input type="checkbox" id="tab4" className="checkbox" />
+                            <label htmlFor="tab4" className="hom-tab-label">잡담</label>
+                        </li>
+                        <li className="hom-tab">
+                            <input type="checkbox" id="tab5" className="checkbox" />
+                            <label htmlFor="tab5" className="hom-tab-label">시사/이슈</label>
+                        </li>
+                        <li className="hom-tab">
+                            <input type="checkbox" id="tab6" className="checkbox" />
+                            <label htmlFor="tab6" className="hom-tab-label">기타</label>
+                        </li>
                     </ul>
-
                     <button className='com-button'>새 글 등록</button>
                 </div>
 
@@ -59,7 +76,7 @@ function COM1000() {
                             <span className="list-item-title">첫 번째 글 입니다</span>
                         </div>
                         <div className="list-item-right">
-                        <span className="list-item-partycomments">참여<span className="party-number">10</span></span>
+                            <span className="list-item-partycomments">참여<span className="party-number">10</span></span>
                             <span className="list-item-author">작성자: 임채성</span>
                             <span className="clim-comuDt">2024.06.23</span>
                         </div>
@@ -71,7 +88,7 @@ function COM1000() {
                             <span className="list-item-title">첫 번째 글 입니다</span>
                         </div>
                         <div className="list-item-right">
-                        <span className="list-item-partycomments">참여<span className="party-number">10</span></span>
+                            <span className="list-item-partycomments">참여<span className="party-number">10</span></span>
                             <span className="list-item-author">작성자: 임채성</span>
                             <span className="clim-comuDt">2024.06.23</span>
                         </div>

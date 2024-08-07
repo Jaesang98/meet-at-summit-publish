@@ -27,9 +27,9 @@ function HOM1000() {
                                     <Card.Img variant="top" src={require('../../assets/img/recentcliming.jpg')} />
                                     <Card.Body>
                                         <Card.Title>더클라임 클라이밍 짐앤샵 양재점</Card.Title>
-                                        <Card.Text>
-                                            <span>새로오픈</span>
-                                            <span> 이벤트</span>
+                                        <Card.Text className='mt-3'>
+                                            <span className='hom-open'>새로오픈</span>
+                                            <span className='hom-event'> 이벤트</span>
                                         </Card.Text>
                                         <Card.Text>
                                             <img src={require('../../assets/img/star.svg').default}></img>
