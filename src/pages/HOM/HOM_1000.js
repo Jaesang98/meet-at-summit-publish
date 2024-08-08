@@ -31,7 +31,7 @@ function HOM1000() {
                                             <span className='hom-open'>새로오픈</span>
                                             <span className='hom-event'> 이벤트</span>
                                         </Card.Text>
-                                        <Card.Text>
+                                        <Card.Text className='cardText'>
                                             <img src={require('../../assets/img/star.svg').default}></img>
                                             <span className='cardGrade'>
                                                 <strong>4.5</strong>
