@@ -46,14 +46,13 @@ function SRC1000() {
                         {Array.from({ length: 6 }).map((_, idx) => (
                             <Col key={idx}>
                                 <Card>
-                                    <Card.Img variant="top" src={require('../../assets/img/recentcliming.jpg')} />
+                                    <Card.Img variant="top" src={require('../../assets/img/recentcliming.jpg')} className='src-cardImg' />
                                     <Card.Body>
                                         <Card.Title>더클라임 클라이밍 짐앤샵 양재점</Card.Title>
                                         <Card.Text>
-                                            <span>새로오픈</span>
-                                            <span> 이벤트</span>
+                                            <span className='src-open'>새로오픈</span>
                                         </Card.Text>
-                                        <Card.Text>
+                                        <Card.Text className='cardTextSrc'>
                                             <img src={require('../../assets/img/star.svg').default}></img>
                                             <span className="cardGrade">
                                                 <strong>4.5</strong>

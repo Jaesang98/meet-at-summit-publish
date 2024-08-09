@@ -23,8 +23,8 @@ function HOM1000() {
                         {/* {cardData.map((card, idx) => ( */}
                         {Array.from({ length: 3 }).map((_, idx) => (
                             <Col key={idx}>
-                                <Card>
-                                    <Card.Img variant="top" src={require('../../assets/img/recentcliming.jpg')} />
+                                <Card style={{height : '650px'}}>
+                                    <Card.Img variant="top" src={require('../../assets/img/recentcliming.jpg')} className='cardImg'/>
                                     <Card.Body>
                                         <Card.Title>더클라임 클라이밍 짐앤샵 양재점</Card.Title>
                                         <Card.Text className='mt-3'>
@@ -168,7 +168,7 @@ function HOM1000() {
                             </div>
                         </div>
 
-                        <ul className="list-group list-group-flush">
+                        <ul className="list-group list-group-flush hom-list">
                             <li className="list-group-item d-flex justify-content-between align-items-center">
                                 첫 번째 글
                                 <span className='clim-comuDt'>2024.06.23</span>
